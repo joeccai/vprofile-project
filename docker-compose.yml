@@ -37,7 +37,7 @@ services:
  
   vproweb:
     build: 
-      context: ./Docker-files/app
+      context: ./Docker-files/web
     image: joccai/vprofileweb
     container_name: vproweb
     ports:
